@@ -17,7 +17,7 @@ spec:
           args:
             [
               "POST",
-              "todo-gitops:8080/api",
+              "todo.todo-gitops.svc.mk-devops.local:8080/api",
               "title=Finish ArgoCD tutorial",
               "--ignore-stdin"
             ]
