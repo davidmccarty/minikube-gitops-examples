@@ -13,8 +13,7 @@ spec:
   ports:
   - name: "http"
     port: 8080
-    targetPort: 8080
   selector:
     app.kubernetes.io/name: "todo-gitops"
     app.kubernetes.io/version: "1.0.0"
-  type: "NodePort"
+  type: "ClusterIP"

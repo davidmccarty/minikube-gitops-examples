@@ -17,5 +17,4 @@ patchesJson6902:
     patch: |-
       - op: replace
         path: /spec/rules/0/host
-        value: welcome-php-waves-hooks.devnation
-
+        value: welcome-php-waves-hooks.mk-devops.local

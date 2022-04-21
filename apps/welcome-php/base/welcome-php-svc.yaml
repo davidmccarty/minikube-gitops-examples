@@ -7,10 +7,9 @@ metadata:
     app: welcome-php
   name: welcome-php
 spec:
-  type: NodePort
+  type: ClusterIP
   ports:
   - port: 8080
     protocol: TCP
-    targetPort: 8080
   selector:
     app: welcome-php

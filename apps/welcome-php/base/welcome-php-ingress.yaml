@@ -6,7 +6,7 @@ metadata:
     argocd.argoproj.io/sync-wave: "3"
 spec:
   rules:
-    - host: welcome-php.devnation
+    - host: welcome-php.mk-devops.local
       http:
         paths:
           - path: /
